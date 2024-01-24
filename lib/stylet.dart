@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 class StyleT extends StatelessWidget{
-  const StyleT({super.key});
+  StyleT(this.text,{super.key});
+
+  var text;
 
   Widget build(context){
-      return Text("Hello World",style:TextStyle(fontSize: 48,color: Colors.white));
+      return Text(text,style:TextStyle(fontSize: 48,color: Colors.white));
   }
 }
 

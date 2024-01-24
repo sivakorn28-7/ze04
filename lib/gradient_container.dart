@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ze04/diceroll.dart';
 import 'package:ze04/stylet.dart';
 
 
@@ -13,8 +14,8 @@ class GContainer extends StatelessWidget{
             Color.fromARGB(78, 240, 134, 234),
             Color.fromARGB(31, 94, 194, 240)
           ],begin: Alignment.topRight, end:Alignment.bottomLeft)),
-          child: const Center(
-           child: StyleT()
-        ));
+          child: Center(
+            child: DiceThrown()
+    ));
   }
 }
